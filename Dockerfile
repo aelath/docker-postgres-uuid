@@ -1,6 +1,6 @@
-FROM postgres
+FROM postgres:9.6.1
 
-MAINTAINER Nicolas Bös
+MAINTAINER Jacob Kobernik
 
 RUN apt-get update && apt-get install -y postgresql-contrib
 
